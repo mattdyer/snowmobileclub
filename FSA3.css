@@ -1,0 +1,378 @@
+body {
+	font: 12px Verdana, Arial, Helvetica, sans-serif;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center;
+	background-color: #003366;
+	margin-top: 12px;
+}
+.oneColFixCtrHdr #container {
+	width: 956px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #000000;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+}
+.oneColFixCtrHdr #header {
+	background: #DDDDDD; 
+	padding: 0 0 0 0;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+}
+.oneColFixCtrHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+	height: 110px;
+}
+.oneColFixCtrHdr #mainContent {
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	background: #FFFFFF;
+	font-size: 14px;
+}
+.oneColFixCtrHdr #footer {
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background: #e7e7e7;
+	height: 50px;
+	vertical-align: bottom;
+}
+.oneColFixCtrHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+#nav {
+	margin: 0px;
+	padding: 0px;
+	height: 20px;
+}
+
+.oneColFixCtrHdr #container #mainContent h1 {
+	font-size: 24px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.oneColFixCtrHdr #container #mainContent h2 {
+	font-size: 16px;
+}
+.tableHeader1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .9em;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 4px;
+	height: 30px;
+	background-color: #003366;
+}
+.headerSubTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .7em;
+	color: #333333;
+	text-align: center;
+	padding: 4px;
+}
+#mainTable {
+	margin: 0px;
+	padding: 20px;
+}
+.buttonCell {
+	text-align: center;
+	padding: 6px;
+}
+.headerSubTxtcontrast {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FFCC00;
+	text-align: center;
+	padding: 4px;
+}
+.RowHeader {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #333333;
+	text-align: center;
+	padding: 4px;
+}
+.link1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #0000FF;
+	text-align: right;
+	padding-right: 200px;
+}
+#MainImg {
+
+
+
+}
+.navText {
+	font-size: 11px;
+	color: #333333;
+	vertical-align: middle;
+}
+.linkTxt {
+	font-size: 11px;
+	padding:6px;
+}
+.adData {
+	font-size: 10px;
+	text-align: left;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+#WADAPageTitleArea {
+	width: 555px;
+}
+#WADAPageTitleArea div, #WADAPageTitleArea p {
+	font-size: 11px;
+	padding-bottom: 10px;
+}
+#WADAPageTitleArea div#WADAPageTitle, #WADAPageTitle {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.WADAResultsNavigation {
+	padding-top: 5px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.WADAResultsCount {
+	font-size: 11px;
+}
+.WADAResultsNavTop, .WADAResultsInsertButton {
+	clear: none;
+}
+.WADAResultsNavTop {
+	width: 60%;
+	float: left;
+}
+.WADAResultsInsertButton {
+	width: 30%;
+	float: right;
+	text-align: right;
+}
+.WADAResultsNavButtonCell, .WADAResultsInsertButton {
+	padding: 2px;
+}
+.WADAResultsTable {
+	font-size: 11px;
+	clear: both;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	margin: 0 auto;
+}
+
+.WADAResultsTableHeader, .WADAResultsTableCell {
+	padding: 3px;
+	text-align: left;
+}
+
+.WADAResultsTableHeader {
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.WADAResultsTableCell {
+	padding-left: 14px;
+	padding-right: 14px;
+}
+
+.WADAResultsTableCell {
+	border-left: 1px solid #BABDC2;
+}
+
+.WADAResultsEditButtons {
+	border-left: 1px solid #BABDC2;
+	border-right: 1px solid #BABDC2;
+}
+
+.WADAResultsRowDark {
+	background-color: #DFE4E9;
+}.TableHdrHoriz {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #003366;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 4px;
+	padding-top: 8px;
+}
+.tableBtmBar {
+	background-color: #999999;
+	height: 14px;
+}
+.NewsHeadline {
+	width: auto;
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+	color: #1451AA;
+}
+.topicHeadline {
+	width: auto;
+	float: left;
+	font-size: 11px;
+	font-weight: bold;
+	color: #1451AA;
+}
+#NewsDate{
+	font-size: 10px;
+	color: #1451AA;
+	font-weight: normal;
+	margin-left: 10px;
+	text-align: right;
+}
+#NewsDetail{
+	color: #5A5A5A;
+	font-size: 11px;
+	text-indent: 15px;
+	border-bottom-color: #5a5a5a;
+	border-style: solid;
+	border-width: 0 0 1px 0;
+	padding-bottom: 6px;
+	text-align: justify;
+	margin-top: 12px;
+}
+#mainInsetImg {
+	margin: 30px 0 20px 60px;
+}
+#newsTable {
+	border-width: 0 0 0 0;
+}
+.msgAboveTbl {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 2px;
+	border-top-width: thin;
+	border-top-style: ridge;
+	border-top-color: #003366;
+}
+#img1Left {
+	vertical-align: middle;
+	margin: 2px;
+	padding: 2px;
+	float: left;
+	border: thin ridge #003366;
+	position: absolute;
+}
+#img2Left {
+	vertical-align: middle;
+	margin: 2px;
+	padding: 2px;
+	float: left;
+	border: thin ridge #003366;
+	position: absolute;
+	margin-top: 140px;
+}#img3Left {
+	vertical-align: middle;
+	margin: 2px;
+	padding: 2px;
+	float: left;
+	border: thin ridge #003366;
+	position: absolute;
+	margin-top: 266px;
+}
+.tableHdrSubTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	text-align: right;
+	margin: 0px;
+	padding: 0px;
+	color: #333333;
+}
+.tagMessage {
+	border-top-style: solid;
+	border-top-width: thin;
+	border-top-color: #5A5A5A;
+	padding: 0px;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 12px;
+	text-align: center;
+	margin: 0;
+}#donateTbl {
+	margin: 0px;
+	float: right;
+	width: 100px;
+	position: relative;
+}
+#pricingTable {
+	margin-left: 60px;
+}
+.donateMsg {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	letter-spacing: 1px;
+	text-align: center;
+	margin: 0px;
+	border-top-color: #5A5A5A;
+	border-top-style: solid;
+	border-top-width: thin;
+	padding-bottom: 0;
+	padding-top: 4px;
+}
+StZip {
+	margin: 0px;
+	padding: 0px;
+}
+.adBodyText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+	text-align: justify;
+	vertical-align: top;
+}
+.AdAddy {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+	text-align: center;
+	vertical-align: top;
+	margin: 0px;
+	padding: 0px;
+}
+#AdTable {
+	padding: 0px;
+	margin-left: 20px;
+}
+.adBodyTextTbl {
+	float: right;
+	padding: 2px;
+	margin-left: 6px;
+	margin-bottom: 0px;
+}
+.oneColFixCtrHdr #container #mainContent #slideshow {
+	float: right;
+}
+.titleTag {
+	font-size: 12px;
+	text-align: right;
+}
+#currentNews {
+	font-size: 1em;
+	text-align: right;
+	float: right;
+	padding-top: 20px;
+}
+.clearing {
+	clear: both;
+}
+.floatL {
+	float: left;
+}
+.oneColFixCtrHdr #container #mainContent #mainTable #pricingTable table tr td .ppButton {
+	text-align: right;
+
+}
+#FBLink {
+	vertical-align: bottom;
+	margin-top: 10px;
+	text-align: center;
+}

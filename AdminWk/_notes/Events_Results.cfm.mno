@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_WADAEvents" value="name:ID;datatype:,name:eventName;datatype:,name:eventDate;datatype:,name:eventTime;datatype:,name:eventLocation;datatype:,name:eventNote;datatype:" />
+</info>

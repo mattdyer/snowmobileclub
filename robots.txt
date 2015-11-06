@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /report/
+Disallow: /images/
+Disallow: /AdminWk/
+Disallow: CF_version.cfm
+Disallow: ipn.cfm
+
+
+

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_WADAtblAds" value="name:AdsID;datatype:,name:AdsCustomerName;datatype:,name:AdsHeadline;datatype:,name:AdsBody;datatype:,name:AdsBanner;datatype:,name:AdsLink;datatype:,name:AdsStartDate;datatype:,name:AdsEndDate;datatype:,name:AdsAddress;datatype:,name:AdsCity;datatype:,name:AdsState;datatype:,name:AdsZip;datatype:,name:AdsEmail;datatype:,name:AdsPhone;datatype:,name:AdsPricePaid;datatype:" />
+</info>

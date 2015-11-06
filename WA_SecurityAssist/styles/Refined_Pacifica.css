@@ -1,0 +1,36 @@
+/* CSS Document */
+
+.WAATK h1 {
+  font-size: 12px;
+  font-weight: bold;
+  border-bottom: 1px solid #BABDC2;
+  margin: 0px 0px 2px 0px;
+}
+
+.WAATKDataTable {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.WAATKDataTable th {
+  font-size: 11px;
+  font-weight: bold;
+  text-align: right;
+  padding: 5px;
+  padding-left: 28px;
+}
+
+.WAATKDataTable td {
+  font-size: 11px;
+  padding: 5px;
+}
+
+.WAATKButtonRow {
+  margin-top: 2px;
+  padding-top: 5px;
+  border-top: 1px solid #BABDC2;
+}
+
+.WAATKTextField {
+  /* will affect all input[type=text|password] fields */
+}
